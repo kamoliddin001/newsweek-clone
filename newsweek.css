@@ -213,14 +213,19 @@ color: white;
 .rasm-2,
 .rasm-3,
 .rasm-4 {
-    height: 55%;
+    height: 100%;
 }
 
 .olti {
-    height: 75%;
+    /* height: 75%; */
     width: 100%;
 }
 
+.chizi {
+    border-top: 1px solid rgb(209, 189, 189);
+    width: 97%;
+    margin-left: 15px;
+   }
 
 
 
@@ -234,6 +239,8 @@ color: white;
 
 
 
-/* * { */
+
+
+ /* * { 
     border: 1px solid rgb(76, 0, 255);
-}
+}  */
