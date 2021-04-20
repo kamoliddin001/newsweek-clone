@@ -6,16 +6,17 @@
 .header-q {
     background-color: #FF0000;
     color: white;
-     padding: 15px; 
+    z-index: 2;
 }
 
 .login {
     background-color: red;
     color: white;
+    margin-right: 1rem;
 }
 
-.news {
-    font-size: 60px;
+.header-q .news {
+    font-size: 4rem;
 }
 
 .button .subs {
@@ -23,7 +24,6 @@
 }
 
 .ul-li10 a {
-    /* text-decoration: none; */
     padding: 5px 10px;
     border-right: 1px solid rgb(187, 183, 183);
     color: inherit;
@@ -32,22 +32,8 @@
 
 .ul-li10 {
     width: 95%;
-}
-
-.trans {
-    background-color: white;
-    transform: rotate(-47deg);
-    position: absolute;
-    right: 4px;
-    bottom: 32px;
-}
-
-.white {
-width: 98.8%;
-background-color: white;
-bottom: 28px;
-z-index: 2;
-color: white;
+    
+    
 }
 
 .ul-li8 {
@@ -85,13 +71,14 @@ color: white;
 }
 
 .politic {
-    top: 172px;
+    /* top: 169px; */
     background-color: #d9d9d9;
+    bottom: 0;
 }
 
 .polit {
     background-color: #d9d9d9;
-    bottom: -26px;
+    bottom: 0px;
 }
 
 .biyden {
@@ -113,10 +100,6 @@ color: white;
     font-weight: 800;
 }
 
-.back {
-    width: 90.8%;
-}
-
 .attor {
     border: 1px solid rgb(218, 214, 214);
     width: 90.8%;
@@ -126,6 +109,7 @@ color: white;
     width: 90.8%;
     height: 10rem;
     background-color: #F4F5F6;
+    outline: none;
 }
 
 .email .fa-neos {
@@ -152,6 +136,7 @@ color: white;
 
 .back-w {
     width: 100%;
+    outline: none;
 }
 
 .japani {
@@ -178,7 +163,6 @@ color: white;
 
 .row4tali {
     margin: 0px;
-   
 }
 
 .chiziq {
@@ -216,15 +200,108 @@ color: white;
     height: 100%;
 }
 
-.olti {
-    /* height: 75%; */
-    width: 100%;
-}
-
 .chizi {
     border-top: 1px solid rgb(209, 189, 189);
     width: 97%;
     margin-left: 15px;
+   }
+
+   .bottom-border {
+    border-top: 1px solid rgb(209, 189, 189);
+    width: 97%;
+    margin-left: 15px;   
+   }
+
+   .back-foto {
+       background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+       background-repeat: no-repeat;
+       /* height: vh; */
+       float: left;
+       background-position: center;
+       background-size: cover;
+   }
+   .start {
+       height: 70vh;
+   }
+   .img-2 {
+       top: 13px;
+       left: 80px;
+   }
+
+   .basha-ra {
+       float: left;
+   }
+
+   .basha-indepth{
+       padding: 30px;
+       background-color: #F4F5F6;
+   }
+
+   .back-start {
+       border: 1px solid rgb(204, 196, 196);
+       height: 100%;
+   }
+
+   .button {
+       background-color: red;
+       color: white;
+       border: none;
+   }
+
+   .emaill {
+       outline: none;
+
+   }
+
+   .back-red-2 {
+    background-color: red;
+    color: white;
+   }
+
+   h3 {
+       font-size: 20px;
+   }
+
+   footer {
+       border-top: 3px solid rgb(243, 234, 234);
+   }
+
+   .news {
+       font-size: 2.8rem;
+       font-weight: 900;
+       color: red;
+   }
+
+   .fa-facebook-square,
+   .fa-twitter,
+   .fa-instagram,
+   .fa-linkedin-in {
+       width: 30px;
+       font-size: 22px;
+       color: rgb(109, 108, 108);
+   }
+
+   .chiz {
+    border-bottom: 1px solid rgb(221, 211, 211);
+    width: 97%;
+    margin-left: 15px;
+   }
+
+   footer .mright-15 {
+       margin-left: 35px;
+   }
+
+   .mar-right .li-border {
+       border-right: 1px solid rgb(216, 209, 209);
+   }
+
+   .mar-right a {
+       font-weight: 400;
+       color: rgb(126, 122, 122);
+   }
+   .span-a {
+    color: rgb(105, 103, 103); 
+    font-size: 12px;
    }
 
 
@@ -240,7 +317,3 @@ color: white;
 
 
 
-
- /* * { 
-    border: 1px solid rgb(76, 0, 255);
-}  */
