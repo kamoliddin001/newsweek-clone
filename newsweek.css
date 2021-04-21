@@ -156,11 +156,6 @@
     width: 90.7%;
 }
 
-.N-yozuv {
-    width: 100%;
-    height: 50px;
-}
-
 .row4tali {
     margin: 0px;
 }
@@ -215,10 +210,10 @@
    .back-foto {
        background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
        background-repeat: no-repeat;
-       /* height: vh; */
        float: left;
        background-position: center;
        background-size: cover;
+    
    }
    .start {
        height: 70vh;
@@ -239,7 +234,7 @@
 
    .back-start {
        border: 1px solid rgb(204, 196, 196);
-       height: 100%;
+       /* height: 100%; */
    }
 
    .button {
